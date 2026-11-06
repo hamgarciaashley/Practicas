@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from app.config.conexion import conectar
+from backend.app.config.conexion import conectar
 
 servicios_bp = Blueprint("servicios", __name__)
 
