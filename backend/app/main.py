@@ -1,9 +1,9 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from app.routes.login import login_bp
-from app.routes.clientes import clientes_bp
-from app.routes.tecnicos import tecnicos_bp
-from app.routes.servicios import servicios_bp
+from backend.app.routes.login import login_bp
+from backend.app.routes.clientes import clientes_bp
+from backend.app.routes.tecnicos import tecnicos_bp
+from backend.app.routes.servicios import servicios_bp
 
 app = Flask(__name__)
 CORS(app)
